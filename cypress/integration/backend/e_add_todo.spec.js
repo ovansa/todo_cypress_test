@@ -4,7 +4,7 @@ function generateRandomText(prefix) {
     return prefix + Math.random().toString(36).substring(2, 10)
 }
 
-describe('ADD TODO ENDPOINT SCENARIOS', () => {
+describe('ADD TODO ENDPOINT SCENARIOS.', () => {
 
     it('Scenario 1: Todo can be created successfully with only Descaription \
     field - validate status code, success message', function() {
