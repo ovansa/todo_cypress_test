@@ -9,4 +9,4 @@ workflows:
       - cypress/run:
           requires:
             - cypress/install
-          start: npm start 
+          start: npm start frontend && npm start backend
